@@ -1,17 +1,16 @@
+Linea AGREGADA
 /**
- * Metro configuration for React Native
+ * Metro configuration for React Native---LINEA MODIFICADA
  * https://github.com/facebook/react-native
  *
  * @format
  */
-
+LINEA AGREGADA
 module.exports = {
-  transformer: {
-    getTransformOptions: async () => ({
       transform: {
         experimentalImportSupport: false,
-        inlineRequires: true,
-      },
-    }),
+        inlineRequires: true,----LINEA MODIFICADA
+      },LINEA MODIFICADA . SIGUIENTE LINEA BORRADA
   },
 };
+-------------LINEA AGREGADA
